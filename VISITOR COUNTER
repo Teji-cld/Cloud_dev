@@ -1,0 +1,21 @@
+# Visitor Counter
+
+A serverless website that tracks and displays live visitor counts.
+
+## Architecture
+S3 → CloudFront → API Gateway → Lambda → DynamoDB
+
+## AWS Services Used
+- S3 — static website hosting
+- CloudFront — CDN and HTTPS
+- API Gateway — REST endpoint
+- Lambda — serverless backend
+- DynamoDB — counter storage
+
+## Live Demo
+https://dtti50dkwib5v.cloudfront.net
+
+## What I Learned
+- How to connect API Gateway to Lambda
+- How to use DynamoDB atomic updates
+- How to debug CORS errors

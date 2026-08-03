@@ -1,1 +1,19 @@
-
+                Internet
+                    │
+                    ▼
+        ┌────────────────────────┐
+        │ Application Load       │
+        │ Balancer (Public Subnets)
+        └────────────────────────┘
+                    │
+                    ▼
+     ┌──────────────────────────────┐
+     │ Auto Scaling Group (EC2)     │
+     │ Private Subnets              │
+     └──────────────────────────────┘
+                    │
+                    ▼
+        ┌────────────────────────┐
+        │        Amazon S3       │
+        │ (Centralized Storage)  │
+        └────────────────────────┘

@@ -87,6 +87,9 @@ It focuses on **security, scalability, and high availability**, using industry-s
 
 ![Website Output](./screenshots/website.png)
 
+### 🔹 VPC
+
+![vpc](./screenshots/vpc.png)
 ---
 
 ## ⚠️ Challenges & Fixes

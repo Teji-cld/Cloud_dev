@@ -86,7 +86,9 @@ It focuses on **security, scalability, and high availability**, using industry-s
 ### 🔹 Live Application via Load Balancer DNS
 
 ![Website Output](./screenshots/website.png)
+## Load Balancer
 
+![ALB](screenshots/load-balancer.png)
 ---
 
 ## ⚠️ Challenges & Fixes
